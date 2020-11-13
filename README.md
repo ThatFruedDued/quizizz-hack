@@ -9,7 +9,9 @@ Quizizz has updated their application so that answers are submitted to and check
 
 ### How can we fix it?
 
-The solution for this issue would be to require finding the Quizizz on the quiz browser. This would allow us to get the real quizID (which is what we need), then use that to fetch the answers in a Quizizz game. This would allow the script to continue working (although it would be a downgrade from what we had before).
+I am currently working on a solution that involves searching for the set using the Quizizz search API. The only caveat to this approach would be if the Quizizz was private or it was not popular enough to appear in search results.
+
+Another solution for this issue would be to require finding the Quizizz on the quiz browser. This would allow us to get the real quizID (which is what we need), then use that to fetch the answers in a Quizizz game. This would allow the script to continue working (although it would be a downgrade from what we had before).
 
 ## Bookmarklet
 
